@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.margin{width:1226px;margin:0 auto;} 
+html,body{width:100%;}
+#top{height:32px;font:12px/32px "";width:1198px;margin:0 auto;}
+#top .top-left{float: left}
+#top .top-left .a1{display: block;position: absolute;left: }
+#top .top-left .a1 span{float: left;}
+#top .top-left .a1 div{float: left;}
+#top span{margin:3px;}
+#top .top-r{float: right;}
+.a818{width: 100%;display: block;margin:0 auto;}
+
+
