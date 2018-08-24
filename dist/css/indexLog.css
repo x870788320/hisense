@@ -1,0 +1,193 @@
+/* CSS Document */
+#top {
+  width: 1200px;
+  height: 70px;
+  margin: 25px auto; }
+
+#top span {
+  margin-left: 0px;
+  font: 20px/70px ''; }
+
+#banner {
+  margin: 40px;
+  height: 600px;
+  width: 2560px; }
+
+#banner .ban {
+  width: 1920px;
+  margin-left: -960px;
+  display: block;
+  position: absolute;
+  left: 50%; }
+
+#banner .ban-c {
+  width: 1200px;
+  height: 540px;
+  position: absolute;
+  margin-left: -600px;
+  left: 50%; }
+
+#banner .ban-c .logon {
+  position: absolute;
+  width: 280px;
+  height: 360px;
+  background-color: #fff;
+  right: 40px;
+  top: 140px;
+  padding: 40px;
+  padding-bottom: 0;
+  display: block; }
+
+.logon .lon-txt {
+  display: block; }
+
+.txt-t {
+  height: 40px;
+  width: 280px;
+  margin-bottom: 30px; }
+
+.txt-t h3 {
+  float: left;
+  font: 16px/40px ''; }
+
+.logon .txt-t img {
+  float: right;
+  width: 40px; }
+
+.inp {
+  width: 268px;
+  height: 30px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 5px; }
+
+.inp div {
+  font: 20px/28px '';
+  color: #999;
+  height: 28px;
+  float: left;
+  margin-left: 5px; }
+
+.inp input {
+  border: 0;
+  float: left;
+  width: 220px;
+  height: 30px;
+  margin-left: 10px; }
+
+#banner .ban-c button {
+  width: 280px;
+  height: 40px;
+  margin-top: 30px;
+  border: 0;
+  background-color: #10a9a6;
+  color: #fff; }
+
+#banner .ban-c button:hover {
+  background-color: #48beae; }
+
+.txt-c {
+  margin-top: 20px; }
+
+.txt-c .forget {
+  margin-left: 50px; }
+
+.logon .lon-txt .txt-c .tologin {
+  color: #48beae;
+  margin-left: 3px; }
+
+.logon .lon-txt .txt-b {
+  margin-top: 30px;
+  height: 50px;
+  background-color: #eee;
+  width: 360px;
+  margin-left: -40px;
+  text-align: center;
+  color: #666; }
+
+.logon .lon-txt .txt-b a {
+  font: 14px/50px '';
+  margin: 10px; }
+
+.logon .lon-phone {
+  display: none; }
+
+.logon .lon-phone .lon-p-img {
+  width: 278px;
+  height: 240px;
+  border: 1px solid #ccc;
+  text-align: center;
+  color: #333;
+  font: 14px/20px ''; }
+
+.logon .lon-phone .lon-p-img a {
+  display: block;
+  margin-top: 20px; }
+
+.logon .lon-phone .lon-p-img a img {
+  width: 160px; }
+
+.logon .lon-phone .lon-p-b {
+  height: 30px;
+  margin-top: 10px; }
+
+.logon .lon-phone .lon-p-b a {
+  float: right;
+  display: block;
+  margin-left: 30px;
+  font: 12px/30px ''; }
+
+.logon .lon-phone .lon-p-b .tologin {
+  color: #48beae; }
+
+#banner .ban-c .login {
+  position: absolute;
+  width: 280px;
+  height: 460px;
+  background-color: #fff;
+  right: 40px;
+  top: 40px;
+  padding: 40px;
+  display: block; }
+
+#banner .ban-c .login .pass-stro {
+  height: 16px;
+  width: 280px; }
+
+#banner .ban-c .login .pass-stro div {
+  width: 90px;
+  height: 16px;
+  color: #fff;
+  background-color: #ccc;
+  margin-left: 3px;
+  float: left;
+  margin-top: 10px;
+  text-align: center; }
+
+#banner .ban-c .login .note p {
+  text-align: center;
+  font: 16px/40px '';
+  color: #666; }
+
+#banner .ban-c .login .note .inp-r {
+  width: 95px;
+  float: left;
+  margin-top: -5px;
+  margin-right: -8px; }
+
+#banner .ban-c .login .note input {
+  width: 151px; }
+
+#banner .ban-c .login .txt-c a span {
+  color: #33f; }
+
+#banner .ban-c .login .tologon {
+  margin-left: 60px; }
+
+#foot {
+  background-color: #666;
+  text-align: center;
+  color: #fff;
+  height: 70px;
+  padding: 20px;
+  font: 12px/24px ''; }

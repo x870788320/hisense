@@ -35,7 +35,43 @@ define(['bootstrap','jquery','jquery-cookie'],function(bootstrap,$){
 				$('#banner').find('.img').mouseleave(function(){
 					timer = setInterval(bannergo, 4000);
 				})
+
+				//侧边
+				$('#fix').on('mouseover', 'div',function(){
+					//alert(1)
+					$(this).css('backgroundColor','#10a9a6');
+					$(this).css('fontSize','16px');
+					$(this).find('span').stop().animate({'lineHeight':"30px"}, 200);
+
+				})
+				$('#fix').on('mouseout', 'div',function(){
+					//alert(1)
+					$(this).css('backgroundColor','');
+					$('.fix-te').css('backgroundColor','#10a9a6')
+					$(this).css('fontSize','20px');
+					$(this).find('span').stop().animate({'lineHeight':'44px'}, 200);
+				})
+				$('.fix-te').click(function(){
+					$(window).scrollTop(0);
+				})
+
+				//下拉显示
+				$(window).scroll(function(event) {
+					if($(window).scrollTop() > $(window).height()){
+						$('#scroll').css('display', 'block');
+					}else{
+						$('#scroll').css('display', 'none');
+					}
+					if($(window).scrollTop() > 1000){
+						$('.fix-te').css('opacity', '1');
+					}else{
+						$('.fix-te').css('opacity', '0');
+					}
+				});
+				
 			})
+
+
 	}
 	return {
 		main:main
