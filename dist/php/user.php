@@ -46,8 +46,8 @@
 			<li>{$result['password']}</li>
 			<li>{$result['time']}</li>
 			<li>
-				<a href='#'>删除</a>/
-				<a href='#'>修改</a>
+				<a href='delete.php?class ={$result['id']}'>删除</a>/
+				<a href='../html/login.html'>修改</a>
 			</li>
 		</ul>";
 		} else {
@@ -57,14 +57,14 @@
 			<li>{$result['password']}</li>
 			<li>{$result['time']}</li>
 			<li>
-				<a href='#'>删除</a>/
-				<a href='#'>修改</a>
+				<a href='delete.php?class ={$result['id']}'>删除</a>/
+				<a href='../html/login.html'>修改</a>
 			</li>
 		</ul>";
 		}
 		
 	}
-	echo "<button>添加</button>
+	echo "<a href='../html/login.html' target = '_blank'><button>添加</button></a>
 	</div>
 </body>
 </html>";
